@@ -1,0 +1,12 @@
+{
+   "Toothpaste": {
+       "price": 6.30,
+       "stock": 40,
+       "barcode": 9300632066025
+   },
+   "Weet-bix": {
+       "price": 4.99,
+       "stock": 25,
+       "barcode": 9414942010750
+   }
+}
