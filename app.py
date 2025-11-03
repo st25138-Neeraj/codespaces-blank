@@ -1,3 +1,16 @@
+
+def loading_inventory():
+  print("You selected option 1: loading inventory.")    
+
+def displaying_inventory():
+   print("You selected option 2: displaying inventory.")
+
+def shopping():
+   print("You selected option 3: shopping.")
+
+def displaying_cart():
+   print("You selected option 4: displaying cart.")
+
 while True:
     print("----------------------------------")
     print("enter 1 for loading inventory")
@@ -11,13 +24,13 @@ while True:
     print("You have selected", menu_option)
 
     if menu_option == "1":
-        print("You selected option 1: loading inventory.")
+      loading_inventory()    
     elif menu_option == "2":
-        print("You selected option 2: displaying inventory.")
+      displaying_inventory()
     elif menu_option == "3":
-        print("You selected option 3: shopping.")
+      shopping()
     elif menu_option == "4":
-        print("You selected option 4: displaying cart.")
+        displaying_cart()
     elif menu_option.lower() == "q":
         print("Goodbye")
         break
